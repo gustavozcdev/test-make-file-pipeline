@@ -51,11 +51,11 @@ phases:
     #file-format: JunitXml | CucumberJson
 artifacts:
   files:
-    - test.txt
+    - uploadtoS3.txt
     # - location
     #name: makefile-test-bucket
-  #discard-paths: no
-  #base-directory: 
+  discard-paths: no
+  base-directory:  base-directory: test/
 #cache:
   #paths:
     # - paths

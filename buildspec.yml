@@ -49,13 +49,13 @@ phases:
     #base-directory: location
     #discard-paths: yes
     #file-format: JunitXml | CucumberJson
-#artifacts:
-  #files:
-    # - "*"
+artifacts:
+  files:
+    - "*"
     # - location
     #name: makefile-test-bucket
-    #discard-paths: no
-    #base-directory: test/
+  discard-paths: no
+  base-directory: test/
 #cache:
   #paths:
     # - paths
